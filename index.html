@@ -6,15 +6,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+    
+        <!-- This is where the delay is specified -->
+<script>
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 1000 );
+}
+</script>
 </head>
 
+    <!-- This is where the audio file is specified -->
+<audio id="player" src="click_sound.mp3"></audio>
+    
 <body>
   <ul>
-  <li><a href="menu.html">Next</a></li>
+  <li><a href="javascript:delay('menu.html')" onclick="document.getElementById('player').play()">Next</a></li>
   <li style="float:left"><p>Doom: The First Modern FPS</li>
 </ul>
 
-
+<!-- The hyperlink is specified via the javascript delay
+<div>
+    <a href="javascript:delay('/index.html')" onclick="document.getElementById('player').play()">Home</a>
+</div>
+-->
+    
 <!-- Slideshow container -->
 <div class="slideshow-container">
 

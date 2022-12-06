@@ -33,6 +33,14 @@ img.bg {
 
 }
 
+center {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -67,7 +75,35 @@ li a {
     
 }
 
+p1 {
+  font-family: 'doomregular';
+  font-weight:normal;
+  font-style:normal;
+  font-size: 35px;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+p2 {
+  font-family: 'doomregular';
+  font-weight:normal;
+  font-style:normal;
+  font-size: 20px;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 li  a:hover {
+    color: grey;
+  }
+
+  a:hover {
     color: grey;
   }
 
