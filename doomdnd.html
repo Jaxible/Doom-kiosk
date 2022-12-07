@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+<!--Refreshes index.html after 300 seconds-->
+  <meta http-equiv="refresh" content="300;url=index.html">
+    
+    <script> function delay (URL) {
+    setTimeout( function() { window.location = URL }, 1000 );
+}
+</script>
+    
+</head>
+    
+<audio id="player" src="click_sound.mp3"></audio>
+<audio id="music" src="tracks/Kitchen-Ace(And-Taking-Names).mp3"></audio>
+    
+<body>
+  <div>
+    <ul>
+      <li><a href="javascript:delay('rundoom.html')" onclick="document.getElementById('player').play()">Next-></a></li>
+        <li><a href="javascript:delay('menu.html')" onclick="document.getElementById('player').play()">Menu</a></li>
+        <li><a onclick="document.getElementById('music').play()">Play Music!</a></li>
+    <li style="float:left"><p>Doom and D&D</li>
+  </ul>
+
+    <br>
+
+    <div class="flex-container">
+      <div>
+        <img src="cacodemon_og.jpg" class="img-responsive" style="width:100%"alt="Image" >
+      </div>
+      <div>
+        <p style="font-size:20pt;">A few aspects of Doom are based on the arguably most famous tabletop-roleplaying game, Dungeons and Dragons. As seen here, the design of the Cacodemon, a flying enemy found in the game, was taken from the cover of a first-edition D&D book, though the creature shown (referred to as an "ethereal dreadnought") doesn't actually exist in D&D.</p>
+          
+          <br>
+          On top of that, the idea for the story of Doom, a base on Mars in the near future that's been overrun by demons due to an experiment gone awry, came from the end of a D&D campaign that the game designers had before the creation of Doom. A player that fans of Doom will recognize, John Romero, made a deal with a demon for immense power, but in turn gave the demon a powerful book that allowed the demon to summon hordes of demons from their plane of existence, wiping out their material world. 
+      </div>
+    </div>
+      
+</div>
+
+
+</body>
+</html>

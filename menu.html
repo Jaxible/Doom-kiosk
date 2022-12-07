@@ -14,40 +14,29 @@
 }
 </script>
     
-    <audio id="music" autoplay loop>
-    <source src="tracks/atdoomsgate.mp3" type="audio/mp3">
-</audio>
-    
 </head>
     
 <audio id="player" src="click_sound.mp3"></audio>
-    
-
+<audio id="music" src="tracks/At-Doom's-Gate.mp3"></audio>
     
 <body>
   <div>
       
     <ul>
     <li style="float:left"><p>Doom: The First Modern FPS</li>
+        <li><a onclick="document.getElementById('music').play()">Play Music!</a></li>
   </ul>
 
     <br>
       
       <a href="javascript:delay('fps.html')" onclick="document.getElementById('player').play()">What is an FPS?</a>
-      <a href="javascript:delay('pioneer.html')" onclick="document.getElementById('player').play()">The First Modern FPS</a>
-      <a href="javascript:delay('critic.html')" onclick="document.getElementById('player').play()">Doom and D&D</a>
+      <a href="javascript:delay('pioneer1.html')" onclick="document.getElementById('player').play()">The First Modern FPS</a>
+      <a href="javascript:delay('doomdnd.html')" onclick="document.getElementById('player').play()">Doom and D&D</a>
       <a href="javascript:delay('rundoom.html')" onclick="document.getElementById('player').play()">Can It Run Doom?</a>
-      <!--<a href="javascript:delay('credits.html')" onclick="document.getElementById('player').play()">Credits</a> -->
+      <a href="javascript:delay('credits.html')" onclick="document.getElementById('player').play()">Thanks</a>
       
       <center>
           <img src="loading.gif" class="img-responsive" style="width:100%"alt="Image" >
-          <br>
-          <br>
-          <p1>Play Me!</p1>
-        <audio controls>
-            <source src="tracks/At-Doom's-Gate.mp3" type="audio/mp3">
-          </audio>
-          <p2>At Doom's Gate</p2>
       </center>
 <!--
     <div class="flex-container">
