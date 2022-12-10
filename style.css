@@ -17,6 +17,11 @@ img.bg {
   top: 0;
   left: 0;
 }
+img{
+    left:50%;
+    max-height: 1080px;
+    max-width: auto;
+}
 
 @media screen and (max-width: 1080px) { /* Specific to this particular image */
   img.bg {
