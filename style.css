@@ -17,11 +17,6 @@ img.bg {
   top: 0;
   left: 0;
 }
-img{
-    left:50%;
-    max-height: 950px;
-    max-width: auto;
-}
 
 @media screen and (max-width: 1080px) { /* Specific to this particular image */
   img.bg {
@@ -242,6 +237,12 @@ a {
 .flex-container {
   display: flex;
   background-color: black;
+}
+
+.flex-container img{
+  left:50%;
+    max-height: 900px;
+    max-width: auto;
 }
 
 .flex-container > div {
